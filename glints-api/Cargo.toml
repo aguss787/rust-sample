@@ -1,0 +1,19 @@
+[package]
+name = "glints-api"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+graphql-playground = []
+
+[[bin]]
+name = "glints-api"
+path = "src/main.rs"
+
+[dependencies]
+actix-web = "4.3.1"
+async-graphql = "5.0.8"
+async-graphql-actix-web = "5.0.8"
+glints-managed-talent = { path = "../glints-managed-talent" }
+serde = "1.0.163"
+shaku = "0.6.1"

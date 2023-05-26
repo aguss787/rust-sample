@@ -1,0 +1,6 @@
+postgres-data
+target
+docker-compose.yaml
+Dockerfile
+README.md
+.env
