@@ -19,7 +19,7 @@ cargo run
 
 ## Build for prod
 ```bash
-cargo build --release
+cargo build --release -F graphql-playground
 ```
 
 ### Sample GraphQL Query
